@@ -1,0 +1,116 @@
+/* 所有元素 */
+*{
+    /*元素之间的外部间距，这里所有元素在父容器中水平居中 */
+    margin: auto;
+    /* 清除所有元素默认的内边距 */
+    padding: 0;
+    /* 避免元素总尺寸超过设置的width和height */
+    box-sizing: border-box;
+    font-family: KaiTi;
+
+}
+.main{
+    width: 1500px;
+    height: 1610px;
+    /* 渐变效果；RGB整数模式（红，绿，蓝） */
+    background: linear-gradient(to bottom,rgb(206, 112, 112),rgb(151, 37, 37));
+    margin: auto;
+}
+.logo{
+    width: 1500px;
+    height: 80px;
+    background-color: white;  
+}
+.logo img{
+    width: 365px;
+    height: 80px;
+}
+.nav{
+    /* 元素上下左右的外边距都为0 */
+    margin: 0;
+    width: 1500px;
+    height: 60px;
+    font-size: 20px;
+    background-color: rgb(113, 35, 35);
+}
+ul{
+    width: 1500px;
+}
+li{
+    width: 300px;
+    height: 60px;
+    line-height: 60px;
+    /* 列表项左浮动 */
+    float: left;
+    /* 列表项中的文字在水平方向居中对齐 */
+    text-align: center;
+    /* 清除列表项默认的项目符号 */
+    list-style: none;
+}
+/* 鼠标悬停 */
+li:hover{
+    background-color: brown;
+}
+li a{
+    /* 去掉下划线 */
+    text-decoration: none;
+    color:white;
+}
+/* 首图容器 */
+.shoutu{
+    width:1500px ;
+}
+.shoutu img{
+    width: 1500px;
+    height: 480px
+}
+.wenzi{
+    width: 1500px;
+    height: 260px;
+    /* background: rgb(53, 158, 126); */
+}
+.wenzi h1{
+    font-size: 36px;
+    color: #deb8b8;
+}
+.wenzi1{
+    /* float: left; */
+    width: 1500px;
+    height: 220px;
+
+    font-size: 20px;
+    padding: 5px;
+    /* 首行缩进2字符 */
+    text-indent: 2rem;
+    line-height: 30px;
+}
+
+.tupian{
+    width: 1000px;
+    height: 200px;
+}
+.jieshao{
+    width: 1500px;
+    /* font-size: 18px; */
+}
+.jieshao p{
+    text-indent: 2rem;
+    line-height: 30px;
+    padding: 6px;
+}
+.jieshao h2{
+    font-size: 36px;
+    color: #c89494;
+}
+.wenzi2{
+    font-size: 20px;
+}
+.footer{
+    background-color: rgb(67, 11, 11);
+    color: white;
+    width: 1500px;
+    height: 60px;
+    /* 文字水平，垂直居中 */
+    line-height: 60px;
+    text-align: center;
+}

@@ -1,0 +1,100 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: KaiTi;
+
+}
+.main{
+    width: 1500px;
+    height: 3250px;
+    background: linear-gradient(to bottom,rgb(182, 83, 83),rgb(143, 33, 33));
+    margin: auto;
+}
+.logo{
+    width: 1500px;
+    height: 80px;
+    background-color: white;  
+}
+.logo img{
+    width: 365px;
+    height: 80px;
+}
+.nav{
+    margin: 0;
+    width: 1500px;
+    height: 60px;
+    font-size: 20px;
+    background-color: rgb(113, 35, 35);
+}
+ul{
+    width: 1500px;
+}
+li{
+    width: 300px;
+    height: 60px;
+    line-height: 60px;
+    float: left;
+    text-align: center;
+    list-style: none;
+}
+li:hover{
+    background-color: brown;
+}
+li a{
+    text-decoration: none;
+    color:white;
+}
+.shoutu{
+    width:1500px ;
+}
+.shoutu img{
+    width: 1500px;
+    height: 480px
+}
+
+.zuopintu{
+    text-align: center;
+    color: #3b0606;
+}
+
+.star{
+            font-size: 30px;
+            /* 可以点击的按钮 */
+            cursor: pointer;
+            color: #ebe4e4; 
+            /* 过渡时间 */
+            transition:  0.3s; 
+}
+.star.active {
+            color: #ebc52f; 
+
+        }
+
+
+.zuopintu h1{
+    color: #d6cccc;
+    font-size: 36px;
+}
+.zuopintu th{
+    font-size: 30px;
+}
+
+.zuopintu tr{
+    font-size: 24px;
+    /* color: #470a0a; */
+
+}
+.zuopintu a{
+    color: #cd7474;
+    text-decoration: none;
+}
+
+.footer{
+    background-color: rgb(67, 11, 11);
+    color: white;
+    width: 1500px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}

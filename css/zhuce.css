@@ -1,0 +1,109 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: KaiTi;
+
+}
+.main{
+    width: 1500px;
+    height: 770px;
+    background: linear-gradient(to bottom,rgb(196, 98, 98),rgb(134, 20, 20));
+    margin: auto;
+}
+.logo{
+    width: 1500px;
+    height: 80px;
+    background-color: white;  
+}
+.logo img{
+    width: 365px;
+    height: 80px;
+}
+.nav{
+    margin: 0;
+    width: 1500px;
+    height: 60px;
+    font-size: 20px;
+    background-color: rgb(113, 35, 35);
+}
+ul{
+    width: 1500px;
+}
+li{
+    width: 300px;
+    height: 60px;
+    line-height: 60px;
+    float: left;
+    text-align: center;
+    list-style: none;
+}
+li:hover{
+    background-color: brown;
+}
+li a{
+    text-decoration: none;
+    color:white;
+}
+.zhudeng {
+    text-align: center;
+}
+.zhudeng h1{
+    font-size: 36px;
+    color: #d6cccc;
+}
+.s-from label{
+    font-size: 22px;
+    color: black;
+
+
+}
+.s-from input{
+
+    border-width: 2px  ;
+    padding: 6px 40px;
+
+}
+.s-from button{
+    color: #eadcdc;
+    border-color: rgb(19, 19, 20);
+    border-radius: 2px;
+    background-color: rgb(33, 130, 98);
+    padding: 6px 15px;
+}
+
+.m-from label{
+    font-size: 22px;
+    color: black;
+
+
+}
+.m-from input{
+
+    border-width: 2px  ;
+    padding: 6px 40px;
+
+}
+.m-from button{
+    color: #eadcdc;
+    border-color: rgb(19, 19, 20);
+    border-radius: 2px;
+    background-color: rgb(32, 126, 95);
+    padding: 6px 15px;
+}
+.denglu {
+    text-align: center;
+    
+}
+.denglu h1{
+    font-size: 36px;
+    color: #d6cccc;
+}
+.footer{
+    background-color: rgb(67, 11, 11);
+    color: white;
+    width: 1500px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
